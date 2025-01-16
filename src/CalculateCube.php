@@ -5,7 +5,7 @@ namespace KonstantinRudenko\OtusComposerPackage;
 class CalculateCube
 {
 
-    public function getCube(int $number): int
+    public function getCube(float $number): float
     {
         return $number ** 3;
     }
