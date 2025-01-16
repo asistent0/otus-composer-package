@@ -1,0 +1,19 @@
+{
+  "name": "konstantin-rudenko/otus-composer-package",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "KonstantinRudenko\\OtusComposerPackage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Konstantin",
+      "email": "asistent0@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-mbstring": "*"
+  }
+}
